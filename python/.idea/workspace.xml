@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab2c5221-6f3e-4323-b37f-f64211e9460d" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../self-system/.idea/vcs.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../../file-formats/HHNE/src/qtree_helper.py" afterPath="$PROJECT_DIR$/../../file-formats/HHNE/src/qt_helper.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../../self-system/example/mylog2017.log" afterPath="$PROJECT_DIR$/../../self-system/example/mylog2017_tmp.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../file-formats/HHNE/docs/workplan.ods" afterPath="$PROJECT_DIR$/../../file-formats/HHNE/docs/workplan.ods" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../file-formats/HHNE/LICENSE" afterPath="$PROJECT_DIR$/../../file-formats/HHNE/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../file-formats/HHNE/docs/group_formats.txt" afterPath="$PROJECT_DIR$/../../file-formats/HHNE/docs/group_formats.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../file-formats/HHNE/mainprogram.py" afterPath="$PROJECT_DIR$/../../file-formats/HHNE/mainprogram.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../file-formats/HHNE/nwbgui/main.cpp" afterPath="$PROJECT_DIR$/../../file-formats/HHNE/nwbgui/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../file-formats/HHNE/nwbgui/mainwindow.cpp" afterPath="$PROJECT_DIR$/../../file-formats/HHNE/nwbgui/mainwindow.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../file-formats/HHNE/nwbgui/mainwindow.h" afterPath="$PROJECT_DIR$/../../file-formats/HHNE/nwbgui/mainwindow.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../file-formats/HHNE/nwbgui/mainwindow.py" afterPath="$PROJECT_DIR$/../../file-formats/HHNE/nwbgui/mainwindow.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../file-formats/HHNE/nwbgui/mainwindow.ui" afterPath="$PROJECT_DIR$/../../file-formats/HHNE/nwbgui/mainwindow.ui" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../file-formats/HHNE/nwbgui/nwbgui.pro" afterPath="$PROJECT_DIR$/../../file-formats/HHNE/nwbgui/nwbgui.pro" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../file-formats/HHNE/nwbgui/nwbgui.pro.user" afterPath="$PROJECT_DIR$/../../file-formats/HHNE/nwbgui/nwbgui.pro.user" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../file-formats/HHNE/paramfiles/param-default.json" afterPath="$PROJECT_DIR$/../../file-formats/HHNE/paramfiles/param-default.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../file-formats/HHNE/src/interface.py" afterPath="$PROJECT_DIR$/../../file-formats/HHNE/src/interface.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../file-formats/HHNE/src/matlab_helper.py" afterPath="$PROJECT_DIR$/../../file-formats/HHNE/src/matlab_helper.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../file-formats/HHNE/src/menuactions.py" afterPath="$PROJECT_DIR$/../../file-formats/HHNE/src/menuactions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../file-formats/HHNE/src/param_helper.py" afterPath="$PROJECT_DIR$/../../file-formats/HHNE/src/param_helper.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../file-formats/HHNE/src/pynwb_helper.py" afterPath="$PROJECT_DIR$/../../file-formats/HHNE/src/pynwb_helper.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../file-formats/HHNE/src/stdoutForward.py" afterPath="$PROJECT_DIR$/../../file-formats/HHNE/src/stdoutForward.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../file-formats/HHNE/unit-tests/tmp-matlab-convert.py" afterPath="$PROJECT_DIR$/../../file-formats/HHNE/unit-tests/tmp-matlab-convert.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../file-formats/HHNE/unit-tests/tmp-pynwb.py" afterPath="$PROJECT_DIR$/../../file-formats/HHNE/unit-tests/tmp-pynwb.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../self-system/README.md" afterPath="$PROJECT_DIR$/../../self-system/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../self-system/main.cpp" afterPath="$PROJECT_DIR$/../../self-system/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../self-system/mainwindow.cpp" afterPath="$PROJECT_DIR$/../../self-system/mainwindow.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../self-system/mainwindow.h" afterPath="$PROJECT_DIR$/../../self-system/mainwindow.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../self-system/mainwindow.py" afterPath="$PROJECT_DIR$/../../self-system/mainwindow.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../self-system/mainwindow.ui" afterPath="$PROJECT_DIR$/../../self-system/mainwindow.ui" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../self-system/self-system-main.py" afterPath="$PROJECT_DIR$/../../self-system/self-system-main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../self-system/self-system.pro" afterPath="$PROJECT_DIR$/../../self-system/self-system.pro" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../self-system/self-system.pro.user" afterPath="$PROJECT_DIR$/../../self-system/self-system.pro.user" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../self-system/src/aux.py" afterPath="$PROJECT_DIR$/../../self-system/src/aux.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../self-system/src/experiment.py" afterPath="$PROJECT_DIR$/../../self-system/src/experiment.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../self-system/src/pandas_helper.py" afterPath="$PROJECT_DIR$/../../self-system/src/pandas_helper.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../self-system/src/qtree_helper.py" afterPath="$PROJECT_DIR$/../../self-system/src/qtree_helper.py" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.idea/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
+      <file leaf-file-name="self-system-main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../self-system/self-system-main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2000">
+              <caret line="111" column="12" lean-forward="false" selection-start-line="111" selection-start-column="12" selection-end-line="111" selection-end-column="12" />
+              <folding>
+                <element signature="e#3825#4646#0" expanded="false" />
+                <element signature="e#4822#5156#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pandas_helper.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../self-system/src/pandas_helper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="30" column="37" lean-forward="false" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+              <folding>
+                <element signature="e#2663#3445#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainprogram.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../file-formats/HHNE/mainprogram.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ticks</find>
+      <find>label</find>
+      <find>square</find>
+      <find>num</find>
+      <find>Rectangle</find>
+      <find>system_timenow</find>
+      <find>pandas_updaterow</find>
+      <find>qtree_deleterow</find>
+      <find>update_row</find>
+      <find>qtree_updaterow</find>
+      <find>qtree_save</find>
+      <find>finditem</find>
+      <find>228</find>
+      <find>Status</find>
+      <find>load</find>
+      <find>-1</find>
+      <find>edited</find>
+      <find>updaterow</find>
+      <find>commitrpw</find>
+      <find>newrow</find>
+      <find>palette</find>
+      <find>commitrow</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../file-formats/HHNE" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/trololo.py" />
+        <option value="$PROJECT_DIR$/runge_testing.py" />
+        <option value="$PROJECT_DIR$/aan/multiarray1d.py" />
+        <option value="$PROJECT_DIR$/aan/example1.py" />
+        <option value="$PROJECT_DIR$/aan/bss.py" />
+        <option value="$PROJECT_DIR$/aan/network.py" />
+        <option value="$PROJECT_DIR$/aux/randstat.py" />
+        <option value="$PROJECT_DIR$/statistics_tests/pdf_estimation_cdf.py" />
+        <option value="$PROJECT_DIR$/statistics_tests/pdf_estimation_bin.py" />
+        <option value="$PROJECT_DIR$/aux/dataanalysis.py" />
+        <option value="$PROJECT_DIR$/statistics_tests/pdf_estimation_bin_nonuniform.py" />
+        <option value="$PROJECT_DIR$/statistics_tests_1D/entropy_estimation_bin.py" />
+        <option value="$PROJECT_DIR$/aux/infotheory.py" />
+        <option value="$PROJECT_DIR$/aux/lolz.py" />
+        <option value="$PROJECT_DIR$/aux/fanoencoder.py" />
+        <option value="$PROJECT_DIR$/encoding_tests/shannon-fano-bookreader.py" />
+        <option value="$PROJECT_DIR$/ode_tests.py" />
+        <option value="$PROJECT_DIR$/ode_tests/forwards-integrator-neuron.py" />
+        <option value="$PROJECT_DIR$/snn/activity_profiles.py" />
+        <option value="$PROJECT_DIR$/dynamical-sys/chaos1.py" />
+        <option value="$PROJECT_DIR$/aux/hilbert.py" />
+        <option value="$PROJECT_DIR$/classification/tmp.py" />
+        <option value="$PROJECT_DIR$/classification/knn.py" />
+        <option value="$PROJECT_DIR$/aux/discretemath.py" />
+        <option value="$PROJECT_DIR$/aux/machinelearning.py" />
+        <option value="$PROJECT_DIR$/snn/tttreerere.py" />
+        <option value="$PROJECT_DIR$/snn/ifneuron.py" />
+        <option value="$PROJECT_DIR$/snn/single_neuron_ode.py" />
+        <option value="$PROJECT_DIR$/snn/random_network.py" />
+        <option value="$PROJECT_DIR$/ode_tests/economics-simulator.py" />
+        <option value="$PROJECT_DIR$/snn/brrrrr.py" />
+        <option value="$PROJECT_DIR$/snippets_py/mandelbrot_update.py" />
+        <option value="$PROJECT_DIR$/snippets_py/plot_lots_of_stuff.py" />
+        <option value="$PROJECT_DIR$/snippets_py/try2.py" />
+        <option value="$PROJECT_DIR$/snippets_py/trololo.py" />
+        <option value="$PROJECT_DIR$/snippets_py/try3.py" />
+        <option value="$PROJECT_DIR$/snippets_py/try1.py" />
+        <option value="$PROJECT_DIR$/snippets_py/array2d_matplotlib.py" />
+        <option value="$PROJECT_DIR$/snippets_py/array2d_scipy_pixel.py" />
+        <option value="$PROJECT_DIR$/snippets_py/bouncing_ball.py" />
+        <option value="$PROJECT_DIR$/../../summary/README.md" />
+        <option value="$PROJECT_DIR$/../../summary/src/test.py" />
+        <option value="$PROJECT_DIR$/../../summary/src/experiment.py" />
+        <option value="$PROJECT_DIR$/../../summary/src/pandas_helper.py" />
+        <option value="$PROJECT_DIR$/../../summary/src/aux.py" />
+        <option value="$PROJECT_DIR$/../../summary/self-system-main.py" />
+        <option value="$PROJECT_DIR$/../../summary/src/qtree_helper.py" />
+        <option value="$PROJECT_DIR$/../../summary/example/mylog2017.log" />
+        <option value="$PROJECT_DIR$/../../self-system/self-system-main.py" />
+        <option value="$PROJECT_DIR$/../../self-system/src/pandas_helper.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
+    <option name="y" value="-11" />
+    <option name="width" value="3842" />
+    <option name="height" value="2172" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="self-system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="self-system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="self-system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HHNE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../file-formats/HHNE" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../self-system/example" />
+      <recent name="$PROJECT_DIR$/../../summary/example" />
+      <recent name="$PROJECT_DIR$/snippets_py" />
+      <recent name="$PROJECT_DIR$/statistics_tests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/snippets_py" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.mainprogram">
+    <configuration default="false" name="example1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python2/mayavi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python2" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python2/mayavi/example1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in pandas_helper.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../self-system/src" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="test1" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/../../self-system/src/pandas_helper.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="self-system-main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/opt/anaconda3/envs/py36qt5/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../self-system" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../self-system/self-system-main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="self-system-main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/opt/anaconda3/envs/py36qt5/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../self-system" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../self-system/self-system-main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="mainprogram" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../file-formats/HHNE" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HHNE" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../file-formats/HHNE/mainprogram.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="test1" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="test1" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="test1" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="test1" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.example1" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in pandas_helper.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python.self-system-main" />
+      <item index="3" class="java.lang.String" itemvalue="Python.self-system-main (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.mainprogram" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.mainprogram" />
+        <item index="1" class="java.lang.String" itemvalue="Python.self-system-main" />
+        <item index="2" class="java.lang.String" itemvalue="Python.self-system-main (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in pandas_helper.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python.example1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab2c5221-6f3e-4323-b37f-f64211e9460d" name="Default" comment="" />
+      <created>1497616106580</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1497616106580</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_test_py - 2017.10.04 at 14h 58m 10s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2017.10.04 at 14h 58m 23s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="-11" width="3842" height="2172" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27388534" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299544" sideWeight="0.49893844" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299544" sideWeight="0.50106156" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31018752" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299544" sideWeight="0.49893844" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299544" sideWeight="0.49893844" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289407" sideWeight="0.49893844" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289407" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../summary" />
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="17" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/aux/randstat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.5/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="722" column="0" lean-forward="false" selection-start-line="722" selection-start-column="0" selection-end-line="722" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classification/tmp.py" />
+    <entry file="file://$PROJECT_DIR$/classification/knn.py" />
+    <entry file="file://$PROJECT_DIR$/aux/machinelearning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aux/discretemath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aux/hilbert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="69" lean-forward="false" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aan/example1.py" />
+    <entry file="file://$PROJECT_DIR$/aan/bss.py" />
+    <entry file="file://$PROJECT_DIR$/aan/multiarray1d.py" />
+    <entry file="file://$PROJECT_DIR$/snn/ifneuron.py" />
+    <entry file="file://$PROJECT_DIR$/snn/tttreerere.py" />
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/matplotlib/axes/_axes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-151">
+          <caret line="1506" column="51" lean-forward="false" selection-start-line="1506" selection-start-column="46" selection-end-line="1506" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/-1247971764/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="5350" column="44" lean-forward="false" selection-start-line="5350" selection-start-column="40" selection-end-line="5350" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/networkx/drawing/nx_pylab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1914">
+          <caret line="281" column="4" lean-forward="false" selection-start-line="281" selection-start-column="4" selection-end-line="281" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ode_tests/economics-simulator.py" />
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/matplotlib/patches.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="679" column="46" lean-forward="false" selection-start-line="679" selection-start-column="46" selection-end-line="679" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snippets_py/plot1d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snippets_py/brrrrr.py" />
+    <entry file="file://$PROJECT_DIR$/snn/random_network.py" />
+    <entry file="file://$PROJECT_DIR$/snn/activity_profiles.py" />
+    <entry file="file://$PROJECT_DIR$/ode_tests/forwards-integrator-neuron.py" />
+    <entry file="file://$PROJECT_DIR$/snn/snn_single_ifneuron.py" />
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/pandas/plotting/_core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="100" column="13" lean-forward="false" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/-1247971764/numpy/random/mtrand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="6667" column="8" lean-forward="false" selection-start-line="6667" selection-start-column="8" selection-end-line="6667" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snippets_py/trololo.py" />
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2031">
+          <caret line="1066" column="11" lean-forward="false" selection-start-line="1066" selection-start-column="8" selection-end-line="1066" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snippets_py/try3.py" />
+    <entry file="file://$PROJECT_DIR$/snippets_py/try2.py" />
+    <entry file="file://$PROJECT_DIR$/snippets_py/array2d_matplotlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snippets_py/mandelbrot_update.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-265">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="36" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snippets_py/array2d_scipy_pixel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snippets_py/plot_lots_of_stuff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="69" column="48" lean-forward="false" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snippets_py/array2d_imshow_animate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="33" column="47" lean-forward="false" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snippets_py/bouncing_ball.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1062">
+          <caret line="59" column="10" lean-forward="true" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../summary/src/experiment.py" />
+    <entry file="file://$PROJECT_DIR$/../../summary/example/mylog2017.log" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/-1247971764/PyQt5/QtGui/QColor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="365" column="8" lean-forward="false" selection-start-line="365" selection-start-column="8" selection-end-line="365" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../summary/src/pandas_helper.py" />
+    <entry file="file://$PROJECT_DIR$/../../summary/src/qtree_helper.py" />
+    <entry file="file://$PROJECT_DIR$/../../summary/src/aux.py" />
+    <entry file="file://$PROJECT_DIR$/../../summary/README.md" />
+    <entry file="file://$PROJECT_DIR$/../../summary/mainwindow.py" />
+    <entry file="file://$PROJECT_DIR$/../../summary/example/mylog2017.log" />
+    <entry file="file://$PROJECT_DIR$/../../summary/self-system-main.py" />
+    <entry file="file://$PROJECT_DIR$/../../self-system/src/qtree_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="76" column="30" lean-forward="false" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python2/mayavi/example1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../self-system/example/mylog2017_tmp.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../self-system/self-system-main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2000">
+          <caret line="111" column="12" lean-forward="false" selection-start-line="111" selection-start-column="12" selection-end-line="111" selection-end-column="12" />
+          <folding>
+            <element signature="e#3825#4646#0" expanded="false" />
+            <element signature="e#4822#5156#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../self-system/src/pandas_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="30" column="37" lean-forward="false" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+          <folding>
+            <element signature="e#2663#3445#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../file-formats/HHNE/mainprogram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

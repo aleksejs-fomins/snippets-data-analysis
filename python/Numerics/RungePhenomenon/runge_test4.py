@@ -4,7 +4,7 @@ import numpy.polynomial.polynomial as nppoly
 import matplotlib.pyplot as plt
 
 import sys
-sys.path.insert(0, '/home/aleksejs/work/python/test1/aux/')
+sys.path.insert(0, '/home/aleksejs/work/python3/test1/aux/')
 
 #from aux import randstat, hilbert, discretemath
 import randstat, hilbert, discretemath
