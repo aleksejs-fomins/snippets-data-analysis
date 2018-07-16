@@ -1,0 +1,188 @@
+[2018-06-20 17:36:32,877][ERROR][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1427][virtual void steps::tetexact::Tetexact::run(double)]: ArgErr: Endtime is before current simulation time 
+[2018-06-20 17:36:48,062][ERROR][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1427][virtual void steps::tetexact::Tetexact::run(double)]: ArgErr: Endtime is before current simulation time 
+[2018-06-22 16:17:49,494][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1024][void steps::tetexact::Tetexact::_setupEField()]: setupEfield 
+
+[2018-06-22 16:17:49,495][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1167][void steps::tetexact::Tetexact::_setupEField()]: Initting mesh with: 
+
+[2018-06-22 16:17:49,495][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1168][void steps::tetexact::Tetexact::_setupEField()]: Number of EF verts: 8318 
+Number of EF tris: 14330 
+Number of EF tets: 19087 
+
+[2018-06-22 16:21:27,657][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1024][void steps::tetexact::Tetexact::_setupEField()]: setupEfield 
+
+[2018-06-22 16:21:27,660][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1167][void steps::tetexact::Tetexact::_setupEField()]: Initting mesh with: 
+
+[2018-06-22 16:21:27,660][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1168][void steps::tetexact::Tetexact::_setupEField()]: Number of EF verts: 8318 
+Number of EF tris: 14330 
+Number of EF tets: 19087 
+
+[2018-06-22 16:42:47,718][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1024][void steps::tetexact::Tetexact::_setupEField()]: setupEfield 
+
+[2018-06-22 16:42:47,722][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1167][void steps::tetexact::Tetexact::_setupEField()]: Initting mesh with: 
+
+[2018-06-22 16:42:47,722][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1168][void steps::tetexact::Tetexact::_setupEField()]: Number of EF verts: 8318 
+Number of EF tris: 14330 
+Number of EF tets: 19087 
+
+[2018-06-25 15:22:11,442][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1024][void steps::tetexact::Tetexact::_setupEField()]: setupEfield 
+
+[2018-06-25 15:22:11,450][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1167][void steps::tetexact::Tetexact::_setupEField()]: Initting mesh with: 
+
+[2018-06-25 15:22:11,450][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1168][void steps::tetexact::Tetexact::_setupEField()]: Number of EF verts: 8318 
+Number of EF tris: 14330 
+Number of EF tets: 19087 
+
+[2018-06-25 15:44:12,632][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1024][void steps::tetexact::Tetexact::_setupEField()]: setupEfield 
+
+[2018-06-25 15:44:12,639][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1167][void steps::tetexact::Tetexact::_setupEField()]: Initting mesh with: 
+
+[2018-06-25 15:44:12,640][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1168][void steps::tetexact::Tetexact::_setupEField()]: Number of EF verts: 8318 
+Number of EF tris: 14330 
+Number of EF tets: 19087 
+
+[2018-06-25 15:44:35,757][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1024][void steps::tetexact::Tetexact::_setupEField()]: setupEfield 
+
+[2018-06-25 15:44:35,758][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1167][void steps::tetexact::Tetexact::_setupEField()]: Initting mesh with: 
+
+[2018-06-25 15:44:35,758][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1168][void steps::tetexact::Tetexact::_setupEField()]: Number of EF verts: 8318 
+Number of EF tris: 14330 
+Number of EF tets: 19087 
+
+[2018-06-25 16:48:36,186][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1024][void steps::tetexact::Tetexact::_setupEField()]: setupEfield 
+
+[2018-06-25 16:48:36,189][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1167][void steps::tetexact::Tetexact::_setupEField()]: Initting mesh with: 
+
+[2018-06-25 16:48:36,189][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1168][void steps::tetexact::Tetexact::_setupEField()]: Number of EF verts: 8318 
+Number of EF tris: 14330 
+Number of EF tets: 19087 
+
+[2018-06-26 15:01:39,775][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1024][void steps::tetexact::Tetexact::_setupEField()]: setupEfield 
+
+[2018-06-26 15:01:39,782][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1167][void steps::tetexact::Tetexact::_setupEField()]: Initting mesh with: 
+
+[2018-06-26 15:01:39,782][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1168][void steps::tetexact::Tetexact::_setupEField()]: Number of EF verts: 8318 
+Number of EF tris: 14330 
+Number of EF tets: 19087 
+
+[2018-06-26 15:02:10,865][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1024][void steps::tetexact::Tetexact::_setupEField()]: setupEfield 
+
+[2018-06-26 15:02:10,866][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1167][void steps::tetexact::Tetexact::_setupEField()]: Initting mesh with: 
+
+[2018-06-26 15:02:10,866][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1168][void steps::tetexact::Tetexact::_setupEField()]: Number of EF verts: 8318 
+Number of EF tris: 14330 
+Number of EF tets: 19087 
+
+[2018-06-26 15:25:22,850][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1024][void steps::tetexact::Tetexact::_setupEField()]: setupEfield 
+
+[2018-06-26 15:25:22,853][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1167][void steps::tetexact::Tetexact::_setupEField()]: Initting mesh with: 
+
+[2018-06-26 15:25:22,853][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1168][void steps::tetexact::Tetexact::_setupEField()]: Number of EF verts: 8318 
+Number of EF tris: 14330 
+Number of EF tets: 19087 
+
+[2018-06-26 15:43:33,058][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1024][void steps::tetexact::Tetexact::_setupEField()]: setupEfield 
+
+[2018-06-26 15:43:33,061][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1167][void steps::tetexact::Tetexact::_setupEField()]: Initting mesh with: 
+
+[2018-06-26 15:43:33,061][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1168][void steps::tetexact::Tetexact::_setupEField()]: Number of EF verts: 8318 
+Number of EF tris: 14330 
+Number of EF tets: 19087 
+
+[2018-06-26 15:43:53,623][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1024][void steps::tetexact::Tetexact::_setupEField()]: setupEfield 
+
+[2018-06-26 15:43:53,623][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1167][void steps::tetexact::Tetexact::_setupEField()]: Initting mesh with: 
+
+[2018-06-26 15:43:53,623][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1168][void steps::tetexact::Tetexact::_setupEField()]: Number of EF verts: 8318 
+Number of EF tris: 14330 
+Number of EF tets: 19087 
+
+[2018-06-26 16:34:04,535][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1024][void steps::tetexact::Tetexact::_setupEField()]: setupEfield 
+
+[2018-06-26 16:34:04,543][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1167][void steps::tetexact::Tetexact::_setupEField()]: Initting mesh with: 
+
+[2018-06-26 16:34:04,543][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1168][void steps::tetexact::Tetexact::_setupEField()]: Number of EF verts: 8318 
+Number of EF tris: 14330 
+Number of EF tets: 19087 
+
+[2018-06-26 16:34:35,722][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1024][void steps::tetexact::Tetexact::_setupEField()]: setupEfield 
+
+[2018-06-26 16:34:35,723][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1167][void steps::tetexact::Tetexact::_setupEField()]: Initting mesh with: 
+
+[2018-06-26 16:34:35,723][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1168][void steps::tetexact::Tetexact::_setupEField()]: Number of EF verts: 8318 
+Number of EF tris: 14330 
+Number of EF tets: 19087 
+
+[2018-06-26 16:44:43,247][ERROR][/home/ocnc/Downloads/STEPS/src/steps/model/model.cpp:200][steps::model::Volsys* steps::model::Model::getVolsys(const string&) const]: ArgErr: Model does not contain volume system with name 'exrecise_vsys' 
+[2018-06-26 16:47:26,609][ERROR][/home/ocnc/Downloads/STEPS/src/steps/model/model.cpp:200][steps::model::Volsys* steps::model::Model::getVolsys(const string&) const]: ArgErr: Model does not contain volume system with name 'exrecise_vsys' 
+[2018-06-26 17:00:04,653][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1024][void steps::tetexact::Tetexact::_setupEField()]: setupEfield 
+
+[2018-06-26 17:00:04,654][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1167][void steps::tetexact::Tetexact::_setupEField()]: Initting mesh with: 
+
+[2018-06-26 17:00:04,654][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1168][void steps::tetexact::Tetexact::_setupEField()]: Number of EF verts: 8318 
+Number of EF tris: 14330 
+Number of EF tets: 19087 
+
+[2018-06-26 17:00:26,425][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1024][void steps::tetexact::Tetexact::_setupEField()]: setupEfield 
+
+[2018-06-26 17:00:26,425][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1167][void steps::tetexact::Tetexact::_setupEField()]: Initting mesh with: 
+
+[2018-06-26 17:00:26,425][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1168][void steps::tetexact::Tetexact::_setupEField()]: Number of EF verts: 8318 
+Number of EF tris: 14330 
+Number of EF tets: 19087 
+
+[2018-06-26 17:04:31,442][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1024][void steps::tetexact::Tetexact::_setupEField()]: setupEfield 
+
+[2018-06-26 17:04:31,443][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1167][void steps::tetexact::Tetexact::_setupEField()]: Initting mesh with: 
+
+[2018-06-26 17:04:31,443][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1168][void steps::tetexact::Tetexact::_setupEField()]: Number of EF verts: 8318 
+Number of EF tris: 14330 
+Number of EF tets: 19087 
+
+[2018-06-26 17:04:52,201][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1024][void steps::tetexact::Tetexact::_setupEField()]: setupEfield 
+
+[2018-06-26 17:04:52,202][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1167][void steps::tetexact::Tetexact::_setupEField()]: Initting mesh with: 
+
+[2018-06-26 17:04:52,202][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1168][void steps::tetexact::Tetexact::_setupEField()]: Number of EF verts: 8318 
+Number of EF tris: 14330 
+Number of EF tets: 19087 
+
+[2018-06-26 17:05:26,415][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1024][void steps::tetexact::Tetexact::_setupEField()]: setupEfield 
+
+[2018-06-26 17:05:26,423][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1167][void steps::tetexact::Tetexact::_setupEField()]: Initting mesh with: 
+
+[2018-06-26 17:05:26,423][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1168][void steps::tetexact::Tetexact::_setupEField()]: Number of EF verts: 8318 
+Number of EF tris: 14330 
+Number of EF tets: 19087 
+
+[2018-06-26 17:06:58,191][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1024][void steps::tetexact::Tetexact::_setupEField()]: setupEfield 
+
+[2018-06-26 17:06:58,192][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1167][void steps::tetexact::Tetexact::_setupEField()]: Initting mesh with: 
+
+[2018-06-26 17:06:58,192][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1168][void steps::tetexact::Tetexact::_setupEField()]: Number of EF verts: 8318 
+Number of EF tris: 14330 
+Number of EF tets: 19087 
+
+[2018-06-26 17:07:19,299][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1024][void steps::tetexact::Tetexact::_setupEField()]: setupEfield 
+
+[2018-06-26 17:07:19,300][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1167][void steps::tetexact::Tetexact::_setupEField()]: Initting mesh with: 
+
+[2018-06-26 17:07:19,300][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1168][void steps::tetexact::Tetexact::_setupEField()]: Number of EF verts: 8318 
+Number of EF tris: 14330 
+Number of EF tets: 19087 
+
+[2018-06-26 17:12:58,342][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1024][void steps::tetexact::Tetexact::_setupEField()]: setupEfield 
+
+[2018-06-26 17:12:58,343][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1167][void steps::tetexact::Tetexact::_setupEField()]: Initting mesh with: 
+
+[2018-06-26 17:12:58,343][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1168][void steps::tetexact::Tetexact::_setupEField()]: Number of EF verts: 8318 
+Number of EF tris: 14330 
+Number of EF tets: 19087 
+
+[2018-06-26 17:13:25,940][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1024][void steps::tetexact::Tetexact::_setupEField()]: setupEfield 
+
+[2018-06-26 17:13:25,941][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1167][void steps::tetexact::Tetexact::_setupEField()]: Initting mesh with: 
+
+[2018-06-26 17:13:25,941][INFO][/home/ocnc/Downloads/STEPS/src/steps/tetexact/tetexact.cpp:1168][void steps::tetexact::Tetexact::_setupEField()]: Number of EF verts: 8318 
+Number of EF tris: 14330 
+Number of EF tets: 19087 
+
