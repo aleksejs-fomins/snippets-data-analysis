@@ -7,7 +7,7 @@ random.seed(datetime.now())
 np.random.seed(datetime.now().toordinal())
 
 # Initialize Constants
-SOURCE_TEXT_FILE = '/home/aleksejs/Downloads/aliceW.txt'
+SOURCE_TEXT_FILE = '/home/alyosha/heidi.txt'
 CORRELATION_ORDER_START = 1
 CORRELATION_ORDER_END = 7
 OUTPUT_TEXT_LENGTH_CHAR = 500
