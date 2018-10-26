@@ -1,0 +1,5 @@
+Tests
+* T-Test
+* F-Test
+* KS-Test
+* ANOVA
