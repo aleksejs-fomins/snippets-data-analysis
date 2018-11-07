@@ -1,3 +1,4 @@
 * L2, Chi2 - Fitness
 * GLM
 * Regularization - (AIC, BIC, L1-sparsity)
+* Autoregressive/MDP models
