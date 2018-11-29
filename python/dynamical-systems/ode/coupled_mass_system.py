@@ -10,39 +10,31 @@ print("Appended base directory", base_dir)
 
 # Import external libraries
 from aux.numerics.integrator_lib import integrate_ode_ord1
-from aux.numerics.example_ode.kuramoto_oscillator import kuramoto_rhs
+from aux.numerics.example_ode.coupled_spring_mass import csm_rhs
 
-
-
-'''
-  TODO:
-   * Convention for parameter selection
-   * Convention for initial conditions
-'''
 
 #####################
 # Initialize
 #####################
 
 # Define system parameters
-N_OSC = 20
-#K = 5.0 * np.ones((N_OSC, N_OSC))
-K = np.zeros((N_OSC, N_OSC))
-K[:N_OSC//2, :N_OSC//2] = 10
-K[N_OSC//2:, N_OSC//2:] = 10
-
-plt.figure()
-plt.imshow(K)
-plt.show()
-
-W = np.random.uniform(0, 2*np.pi, N_OSC)
+N_OSC = 10
+m = 0.1 * np.ones(N_OSC)    # kg
+L = 0.1 * np.ones(N_OSC+1)  # m
+k = 200 * np.ones(N_OSC+1)  # N/kg
 
 # Define simulation parameters
 dt = 0.01
 N_STEPS = 10000
 
 # Define initial conditions
-x0 = np.random.uniform(0, 2*np.pi, N_OSC)
+xmin = 0
+xmax = np.sum(L)
+v0 = np.random.normal(0, 1, N_OSC)
+#v0 = np.zeros(N_OSC)
+x0 = np.copy(L[:-1])
+for i in range(1, N_OSC):
+    x0[i] += x0[i-1]
 
 
 #####################
@@ -50,15 +42,10 @@ x0 = np.random.uniform(0, 2*np.pi, N_OSC)
 #####################
 
 # Define integrator-conforming RHS with inserted constants. Note that Kuramoto is time-invariant
-rhs = lambda x, t: np.array(kuramoto_rhs(x, W, K))
+rhs = lambda var, t: np.array(csm_rhs(var[:N_OSC], var[N_OSC:], m, k, L))
 
 # Run simulation
-periodic = 2 * np.pi * np.ones(N_OSC)
-rez = integrate_ode_ord1(rhs, x0, dt, N_STEPS, method='rk4', periodic=periodic)
-
-# postprocess
-xarr = np.cos(rez)
-yarr = np.sin(rez)
+rez = integrate_ode_ord1(rhs, np.hstack((x0, v0)), dt, N_STEPS, method='scipy')
 
 
 #####################
@@ -73,15 +60,14 @@ yarr = np.sin(rez)
 # Plot movie
 plt.ion()
 fig, ax = plt.subplots()
-line1, = ax.plot(xarr[0], yarr[0], 'o')
-ax.set_xlim([-1.2, 1.2])
-ax.set_ylim([-1.2, 1.2])
+plots = [ax.plot(x, 0, 'o')[0] for x in rez[0][:N_OSC]]
+ax.set_xlim([xmin, xmax])
 plt.show()
 
-for i in range(1, N_STEPS):
+for iStep in range(1, N_STEPS):
     try:
-        line1.set_xdata(xarr[i])
-        line1.set_ydata(yarr[i])
+        for iOsc in range(N_OSC):
+            plots[iOsc].set_xdata(rez[iStep][iOsc])
         fig.canvas.draw()
         fig.canvas.flush_events()
 
