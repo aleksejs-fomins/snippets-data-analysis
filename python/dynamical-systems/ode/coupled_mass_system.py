@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import h5py
 
 # Append base directory
 import os,sys,inspect
@@ -21,7 +22,7 @@ from aux.numerics.example_ode.coupled_spring_mass import csm_rhs
 N_OSC = 10
 m = 0.1 * np.ones(N_OSC)    # kg
 L = 0.1 * np.ones(N_OSC+1)  # m
-k = 200 * np.ones(N_OSC+1)  # N/kg
+w = 15 * np.ones(N_OSC+1)  # N/kg
 
 # Define simulation parameters
 dt = 0.01
@@ -42,10 +43,23 @@ for i in range(1, N_OSC):
 #####################
 
 # Define integrator-conforming RHS with inserted constants. Note that Kuramoto is time-invariant
-rhs = lambda var, t: np.array(csm_rhs(var[:N_OSC], var[N_OSC:], m, k, L))
+rhs = lambda var, t: np.array(csm_rhs(var[:N_OSC], var[N_OSC:], m, w, L))
 
 # Run simulation
 rez = integrate_ode_ord1(rhs, np.hstack((x0, v0)), dt, N_STEPS, method='scipy')
+
+
+#####################
+# Write data to file
+#####################
+
+outfilename = "data/cms_" + str(N_OSC) + ".h5"
+h5f = h5py.File(outfilename, "w")
+h5f['dt'] = dt
+h5f['w'] = w
+h5f['x'] = rez[:N_OSC]
+h5f['v'] = rez[N_OSC:]
+h5f.close()
 
 
 #####################

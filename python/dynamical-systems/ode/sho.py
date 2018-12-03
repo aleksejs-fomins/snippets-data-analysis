@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import h5py
 
 # Append base directory
 import os,sys,inspect
@@ -23,7 +24,7 @@ w = np.random.uniform(5, 20, N_OSC)
 x0 = np.random.uniform(-5, 5, N_OSC)
 v0 = np.divide(np.random.uniform(-5, 5, N_OSC), w)
 dt = 0.01
-N_STEPS = 100000
+N_STEPS = 10000
 
 
 #####################
@@ -36,6 +37,17 @@ rhs = lambda var, t: np.array(sho_rhs(var[:N_OSC], var[N_OSC:], w))
 # Integrate the problem
 rez = integrate_ode_ord1(rhs, np.hstack((x0, v0)), dt, N_STEPS, method='scipy')
 
+#####################
+# Write data to file
+#####################
+
+outfilename = "data/sho_" + str(N_OSC) + ".h5"
+h5f = h5py.File(outfilename, "w")
+h5f['dt'] = dt
+h5f['w'] = w
+h5f['x'] = rez[:N_OSC]
+h5f['v'] = rez[N_OSC:]
+h5f.close()
 
 #####################
 # Plot
@@ -59,24 +71,23 @@ rez = integrate_ode_ord1(rhs, np.hstack((x0, v0)), dt, N_STEPS, method='scipy')
 #plt.show()
 
 
-
-# Plot movie
-plt.ion()
-fig, ax = plt.subplots()
-plots = [ax.plot(x, 0, 'o')[0] for x in rez[0][:N_OSC]]
-ax.set_xlim([np.min(rez[:, :N_OSC]), np.max(rez[:, :N_OSC])])
-plt.show()
-
-for iStep in range(1, N_STEPS):
-    try:
-        for iOsc in range(N_OSC):
-            plots[iOsc].set_xdata(rez[iStep][iOsc])
-        fig.canvas.draw()
-        fig.canvas.flush_events()
-
-    except KeyboardInterrupt:
-        print("Aborted by user!")
-        try:
-            sys.exit(0)
-        except SystemExit:
-            os._exit(0)
+# # Plot movie
+# plt.ion()
+# fig, ax = plt.subplots()
+# plots = [ax.plot(x, 0, 'o')[0] for x in rez[0][:N_OSC]]
+# ax.set_xlim([np.min(rez[:, :N_OSC]), np.max(rez[:, :N_OSC])])
+# plt.show()
+#
+# for iStep in range(1, N_STEPS):
+#     try:
+#         for iOsc in range(N_OSC):
+#             plots[iOsc].set_xdata(rez[iStep][iOsc])
+#         fig.canvas.draw()
+#         fig.canvas.flush_events()
+#
+#     except KeyboardInterrupt:
+#         print("Aborted by user!")
+#         try:
+#             sys.exit(0)
+#         except SystemExit:
+#             os._exit(0)

@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import h5py
 
 # Append base directory
 import os,sys,inspect
@@ -59,6 +60,19 @@ rez = integrate_ode_ord1(rhs, x0, dt, N_STEPS, method='rk4', periodic=periodic)
 # postprocess
 xarr = np.cos(rez)
 yarr = np.sin(rez)
+
+#####################
+# Write data to file
+#####################
+
+outfilename = "data/kuramoto_" + str(N_OSC) + ".h5"
+h5f = h5py.File(outfilename, "w")
+h5f['dt'] = dt
+h5f['W'] = W
+h5f['K'] = K
+h5f['x'] = rez[:N_OSC]
+h5f['v'] = rez[N_OSC:]
+h5f.close()
 
 
 #####################

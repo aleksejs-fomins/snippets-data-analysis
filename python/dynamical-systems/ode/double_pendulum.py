@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import h5py
 
 # Append base directory
 import os,sys,inspect
@@ -43,7 +44,7 @@ rhs = lambda var, t: np.array(dp_rhs(var, m1,m2,l1,l2,g))
 
 # Run simulation
 periodic = [2 * np.pi, 2 * np.pi, None, None]  # Angles are periodic, velocities are not
-rez = integrate_ode_ord1(rhs, var0, dt, N_STEPS, method='rk4', periodic=periodic)
+rez = integrate_ode_ord1(rhs, var0, dt, N_STEPS, method='scipy', periodic=periodic)
 
 # Postprocess
 rez[:, 0] = rez[:, 0] - np.pi/2
@@ -53,6 +54,27 @@ x1 = l1*np.cos(rez[:, 0])
 y1 = l1*np.sin(rez[:, 0])
 x2 = x1+l2*np.cos(rez[:, 1])
 y2 = y1+l2*np.sin(rez[:, 1])
+
+
+#####################
+# Write data to file
+#####################
+
+outfilename = "data/dp.h5"
+h5f = h5py.File(outfilename, "w")
+h5f['dt'] = dt
+h5f['m1'] = m1
+h5f['m2'] = m2
+h5f['l1'] = l1
+h5f['l2'] = l2
+h5f['x1'] = x1
+h5f['x2'] = x2
+h5f['y1'] = y1
+h5f['y2'] = y2
+h5f['w1'] = rez[:, 2]
+h5f['w2'] = rez[:, 3]
+h5f.close()
+
 
 #####################
 # Plot
