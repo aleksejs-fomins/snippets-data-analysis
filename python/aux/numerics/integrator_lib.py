@@ -1,6 +1,6 @@
 import numpy as np
-import sdeint
 import scipy.integrate as integrate
+#import sdeint
 
 def integrate_ode_ord1(rhs, x0, dt, nStep, method='naive_ord1', periodic=None):
     nDof = len(x0)
@@ -46,12 +46,12 @@ def integrate_ode_ord1(rhs, x0, dt, nStep, method='naive_ord1', periodic=None):
     return rez
 
 
-def integrate_sde_ord1(F, G, x0, dt, nStep, eqtype='ito'):
-    tspan = np.linspace(0.0, dt*nStep, nStep+1)
-    if eqtype == 'ito':
-        rez = sdeint.itoint(F, G, x0, tspan)
-    elif eqtype == 'stratonovich':
-        rez = sdeint.stratint(F, G, x0, tspan)
-    else:
-        raise ValueError('Unknown equation type', eqtype)
-    return rez
+#def integrate_sde_ord1(F, G, x0, dt, nStep, eqtype='ito'):
+    #tspan = np.linspace(0.0, dt*nStep, nStep+1)
+    #if eqtype == 'ito':
+        #rez = sdeint.itoint(F, G, x0, tspan)
+    #elif eqtype == 'stratonovich':
+        #rez = sdeint.stratint(F, G, x0, tspan)
+    #else:
+        #raise ValueError('Unknown equation type', eqtype)
+    #return rez
