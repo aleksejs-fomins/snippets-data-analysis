@@ -70,7 +70,7 @@ while not done:
     elif keys[pygame.K_DOWN]:
         speed /= 1.02
     elif keys[pygame.K_SPACE]:
-        wormtraj = [wormtraj[-j] for j in range(len(wormtraj))
+        wormtraj = [wormtraj[-j] for j in range(len(wormtraj))]
 
     # --- Drawing
     # Set the screen background
