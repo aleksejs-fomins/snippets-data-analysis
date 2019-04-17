@@ -10,7 +10,7 @@ param = {
   'm'  : 1,    # Mass, kg
   'k'  : 2,    # Spring constant, N/m, 
   'dt' : 0.05, # Time-step, s
-  'g'  : -1.5    # Dimensionless Damping constant (-2 : critical damping)
+  'g'  : -1    # Dimensionless Damping constant (-2 : critical damping)
 }
 
 # Init Screen
