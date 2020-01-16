@@ -28,7 +28,7 @@ g = 9.8  # N/kg
 
 # Define simulation parameters
 dt = 0.01
-N_STEPS = 10000
+N_STEPS = 1000
 
 # Define initial conditions
 #var0 = np.array([np.pi/2, np.pi/2, 0, 0])
@@ -56,24 +56,24 @@ x2 = x1+l2*np.cos(rez[:, 1])
 y2 = y1+l2*np.sin(rez[:, 1])
 
 
-#####################
-# Write data to file
-#####################
-
-outfilename = "data/dp.h5"
-h5f = h5py.File(outfilename, "w")
-h5f['dt'] = dt
-h5f['m1'] = m1
-h5f['m2'] = m2
-h5f['l1'] = l1
-h5f['l2'] = l2
-h5f['x1'] = x1
-h5f['x2'] = x2
-h5f['y1'] = y1
-h5f['y2'] = y2
-h5f['w1'] = rez[:, 2]
-h5f['w2'] = rez[:, 3]
-h5f.close()
+# #####################
+# # Write data to file
+# #####################
+#
+# outfilename = "data/dp.h5"
+# h5f = h5py.File(outfilename, "w")
+# h5f['dt'] = dt
+# h5f['m1'] = m1
+# h5f['m2'] = m2
+# h5f['l1'] = l1
+# h5f['l2'] = l2
+# h5f['x1'] = x1
+# h5f['x2'] = x2
+# h5f['y1'] = y1
+# h5f['y2'] = y2
+# h5f['w1'] = rez[:, 2]
+# h5f['w2'] = rez[:, 3]
+# h5f.close()
 
 
 #####################
@@ -81,56 +81,60 @@ h5f.close()
 #####################
 
 ## Plot velocity
-#plt.figure()
-#plt.plot(rez[:, 0], label='x1')
-#plt.plot(rez[:, 1], label='x2')
-#plt.plot(rez[:, 2], label='v1')
-#plt.plot(rez[:, 3], label='v2')
-#plt.legend()
-#plt.show()
-
-# Sanity check - plot total energy over time
-#KE1 = np.array([m1*l1*l1*w1*w1/2 for w1 in rez[:, 2]])
-#KE2 = np.array([m2*l2*l2*w2*w2/2 for w2 in rez[:, 3]])
-#KE12 = np.array([m2*l1*l2*w1*w2*np.cos(x1-x2) for x1,x2,w1,w2 in rez])
-#PE1 = m1*g*y1
-#PE2 = m2*g*y2
-KE1,KE2,PE1,PE2 = dp_energy(rez, m1, m2, l1, l2, g)
-
-
-plt.figure()
-#plt.plot(KE1)
-#plt.plot(KE2)
-#plt.plot(PE1)
-#plt.plot(PE2)
-plt.plot(KE1+KE2, label="Kinetic")
-plt.plot(PE1+PE2, label="Potential")
-plt.plot(KE1+KE2+PE1+PE2, label="Total")
+fig,ax = plt.subplots(ncols=5)
+ax[0].plot(rez[:, 0], rez[:, 1])
+ax[1].plot(np.sin(rez[:, 0]), np.sin(rez[:, 1]))
+ax[2].plot(rez[:, 2], rez[:, 3])
+ax[3].plot(rez[:-1, 2], rez[1:, 3])
+ax[4].plot(rez[:-1, 3], rez[1:, 2])
+ax[0].set_title("Phase space for angles")
+ax[1].set_title("Phase space for x-coordinates")
+ax[2].set_title("Lagged 0->1 Phase space for x-coordinates")
+ax[3].set_title("Lagged 1->0 Phase space for x-coordinates")
 plt.legend()
 plt.show()
 
-## Plot movie
-#plt.ion()
-#fig, ax = plt.subplots(tight_layout=True, figsize=(7,7))
-#ball0, = ax.plot(x1[0], y1[0], 'o')
-#ball1, = ax.plot(x2[0], y2[0], 'o')
-#radlim = 1.1 * (l1+l2)
-#plt.xlim(-radlim, radlim)
-#plt.ylim(-radlim, radlim)
-#plt.show()
+#############################################
+# Sanity check - plot total energy over time
+#############################################
+# KE1,KE2,PE1,PE2 = dp_energy(rez, m1, m2, l1, l2, g)
+#
+#
+# plt.figure()
+# #plt.plot(KE1)
+# #plt.plot(KE2)
+# #plt.plot(PE1)
+# #plt.plot(PE2)
+# plt.plot(KE1+KE2, label="Kinetic")
+# plt.plot(PE1+PE2, label="Potential")
+# plt.plot(KE1+KE2+PE1+PE2, label="Total")
+# plt.legend()
+# plt.show()
 
-#for i in range(1, N_STEPS):
-    #try:
-        #ball0.set_xdata(x1[i])
-        #ball0.set_ydata(y1[i])
-        #ball1.set_xdata(x2[i])
-        #ball1.set_ydata(y2[i])
-        #fig.canvas.draw()
-        #fig.canvas.flush_events()
-
-    #except KeyboardInterrupt:
-        #print("Aborted by user!")
-        #try:
-            #sys.exit(0)
-        #except SystemExit:
-            #os._exit(0)
+#############################################
+# Plot movie
+#############################################
+# plt.ion()
+# fig, ax = plt.subplots(tight_layout=True, figsize=(7,7))
+# ball0, = ax.plot(x1[0], y1[0], 'o')
+# ball1, = ax.plot(x2[0], y2[0], 'o')
+# radlim = 1.1 * (l1+l2)
+# plt.xlim(-radlim, radlim)
+# plt.ylim(-radlim, radlim)
+# plt.show()
+#
+# for i in range(1, N_STEPS):
+#     try:
+#         ball0.set_xdata(x1[i])
+#         ball0.set_ydata(y1[i])
+#         ball1.set_xdata(x2[i])
+#         ball1.set_ydata(y2[i])
+#         fig.canvas.draw()
+#         fig.canvas.flush_events()
+#
+#     except KeyboardInterrupt:
+#         print("Aborted by user!")
+#         try:
+#             sys.exit(0)
+#         except SystemExit:
+#             os._exit(0)
