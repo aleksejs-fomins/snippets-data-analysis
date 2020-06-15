@@ -43,7 +43,7 @@ class LabyrinthSolverTDEligibility:
         moveidx = np.random.choice(4, p=prob)
         return moves[moveidx]
     
-    def solve(self, maxMoves=50000):
+    def solve(self, maxMoves=50000, updateVisited=True):
         p0, pf = self.labClass.p0, self.labClass.pf
         
         pold, p = p0, pf
@@ -54,9 +54,14 @@ class LabyrinthSolverTDEligibility:
             rewardThis = self.R0 * int(p == pf)
             if rewardThis > 0:
                 # Update only the cells that we have visited this run
+                if updateVisited:
+                    idxUpdate = self.eligibilityTrace > 0
+                else:
+                    idxUpdate = np.ones(len(self.value)).astype(bool)
+                
                 idxVisited = self.eligibilityTrace > 0
-                self.value[idxVisited] = (1 - self.alpha) * self.value[idxVisited] \
-                                           + self.alpha * rewardThis * self.eligibilityTrace[idxVisited]
+                self.value[idxUpdate] = (1 - self.alpha) * self.value[idxUpdate] \
+                                           + self.alpha * rewardThis * self.eligibilityTrace[idxUpdate]
 
                 # Reset trace for each trial
                 self.eligibilityTrace = np.zeros(self.labShape)
