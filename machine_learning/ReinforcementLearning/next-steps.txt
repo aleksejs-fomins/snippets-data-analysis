@@ -1,0 +1,8 @@
+Next Steps:
+    * Q, Sarsa
+    * Policy Gradient
+    * Continuous states?
+
+Bio-plausible:
+    * Chris mentioned applications to hippocampus.
+    * Main idea is to reinforce continuous local basin of attraction
