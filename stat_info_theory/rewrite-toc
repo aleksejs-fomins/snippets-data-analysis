@@ -1,0 +1,53 @@
+TODO (Find Home)
+    * ANOVA
+
+
+Probability Theory
+    - Moments
+    - Empirical Distributions, CDF
+Resampling
+    - IID methods: Bootstrapping, Permutation
+    - NON IID: (AKA Surrogate data)
+Monte Carlo Methods
+    - Expectation Values
+    - Integrals
+Hypothesis Testing
+    - Parametric Tests
+        - T, F, Chi2, Binomial, etc
+    - Non-Parametric Tests
+        - Ranksum/Signrank
+    - Permutation-testing
+        
+    - Composing p-values
+Inference: Non-parametric:
+    - Static Relation metrics: Corr, Spr, MI
+    - Dynamic Relation metrics:
+        - Complexity (PI)
+        - Stationary (CrossCorr, GC)
+        - Semi-Stationary (TE)
+    - Information Theory
+        - Bulk Metrics: H, TC
+        - Higher order relations: MMI, PID, AIS
+    - Graph-Theoretic metrics: Degree, CC, etc.
+    - Time series analysis:
+        - Stationarity testing
+        - Frequency analysis
+        - Phase-space methods
+            - Dim. Red. in space and time simultaneously
+            - Taken's embedding
+Inference: Parametric
+    - Classification: Logit, Cross-Entropy
+    - Regression: Linear, Logistic, GLM
+    - Time series analysis
+        - AR/VAR/MAR, MA, ARMA
+        - Forecasting
+    - Model selection
+        - ROC/AUC
+        - Cross-validation
+        - Model Selection Criteria: AIC, BIC, BMS(Bayes factors)
+    - Regularization
+        - L1, L2
+    - Generative Models
+Dimensionality Reduction:
+    - PCA, FA, NMF, tSNE
+    - Autoencoders
