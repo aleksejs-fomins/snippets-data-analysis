@@ -1,6 +1,15 @@
+TODO (Learn)
+    * Frequency Analysis - PSD, Band power, Frequency domain
+    * Singular spectrum analysis -> Taken's embedding, applies PCA to time lags 
+in phase space to separate signal into stationary components
+    * Correlation Dimension - Implement. Very beautiful concept
+    * Recurrence plot - Implement. Seems very reasonable approach to projecting 
+multidimensional data. 
+    * heteroskedasticity models
+
 TODO (Find Home)
     * ANOVA
-
+    * Parameter jiggling to get smooth estimators (read pub)
 
 Probability Theory
     - Moments
