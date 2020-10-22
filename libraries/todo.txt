@@ -1,5 +1,0 @@
-
-Explore Machine Learning libraries
-	Tensorflow
-	Keras
-	https://pytorch.org/

@@ -1,0 +1,7 @@
+    - Parametric Tests
+        - T, F, Chi2, Binomial, etc
+    - Non-Parametric Tests
+        - Ranksum/Signrank
+    - Permutation-testing
+        
+    - Composing p-values
