@@ -1,0 +1,17 @@
+* Autocorrelation  - what does it mean
+  - should decay for chaotic systems?
+  - represents amount of recurrent memory? What kind of?
+* Correlation matrix spectrum is PCA!
+  - Look at estimators of correlation, see why its different in numpy
+Periodigram
+  - Look at two implementations (Welch and ??)
+	- https://en.wikipedia.org/wiki/Welch%27s_method
+  - Implement yourself, try to understand how it works
+
+What is SVD, how is it related to Eigendecomposition and PCA?
+
+More fancy decompositions:
+    * https://en.wikipedia.org/wiki/Hilbert_spectral_analysis
+    * https://en.wikipedia.org/wiki/Hilbert_spectrum
+    * https://en.wikipedia.org/wiki/Hilbert%E2%80%93Huang_transform
+    * https://en.wikipedia.org/wiki/Dynamic_mode_decomposition
